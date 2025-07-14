@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sigurdsen Automater</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333;
+    }
+    header {
+      background-color: #e91c1c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f3f3f3;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #e91c1c;
+      font-weight: bold;
+    }
+    .logo {
+      max-width: 150px;
+      margin: 20px auto;
+      display: block;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: #e91c1c;
+    }
+    .contact {
+      background-color: #f3f3f3;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #f0f0f0;
+      margin-top: 20px;
+    }
+    .faq-item {
+      margin-bottom: 15px;
+    }
+    .faq-item h3 {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sigurdsen Automater</h1>
+    <p>Modern service för framtidens vårdmiljöer</p>
+  </header>
+
+  <nav>
+    <a href="#start">Start</a>
+    <a href="#behov">Varför en varuautomat?</a>
+    <a href="#omoss">Om oss</a>
+    <a href="#faq">FAQ</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <img src="Sigurdsen_Automater_Transparent.png" alt="Sigurdsen Automater logotyp" class="logo" />
+
+  <section id="start">
+    <h2>Vår vision</h2>
+    <p>Vi hjälper vårdcentraler och kliniker att skapa en bättre upplevelse för sina patienter. Genom moderna varuautomater med snacks, dryck och nödvaror förbättrar vi tillgängligheten och servicen i vårdens väntrum.</p>
+  </section>
+
+  <section id="behov">
+    <h2>Varför en varuautomat?</h2>
+    <p>Väntrum kan vara fysiskt, emotionellt och mentalt dränerande för patienter. Många är oroliga, hungriga och stressade över sin hälsa. Vissa har inte hunnit äta, andra är trötta efter en lång resa eller ett tidigt morgonbesök.</p>
+    <p>Att erbjuda lättillgängliga snacks och dryck är inte bara omtänksamt – det förbättrar hela patientupplevelsen.</p>
+    <p>En liten dryck eller något att tugga på kan hjälpa patienten att slappna av, tänka på något annat och känna sig lite mer mänsklig i väntan. Det ger energi, minskar stress och skapar en tryggare känsla inför besöket.</p>
+    <p>Och vi får inte glömma den hårt arbetande vårdpersonalen. De går ofta långa dagar utan att hinna äta ordentligt. Att snabbt kunna ta något ur automaten – utan att lämna arbetsplatsen – gör stor skillnad för både energi och arbetsmiljö.</p>
+    <ul>
+      <li>Inget behov av café eller butik i närheten</li>
+      <li>Alltid tillgänglig – dygnet runt, utan personal</li>
+      <li>Kontaktlös betalning (Swish, kort, mobil)</li>
+      <li>Ingen kostnad eller administration för kliniken</li>
+    </ul>
+    <p>Genom att öka bekvämligheten och omsorgen höjer ni både patientnöjdheten och arbetsmiljön – utan extra ansträngning.</p>
+  </section>
+
+  <section id="omoss">
+    <h2>Om oss</h2>
+    <p>Sigurdsen Automater grundades av Tom Sigurdsen, med målet att skapa bättre väntemiljöer i sjukvården genom moderna och tillförlitliga varuautomater. Tom har flera års erfarenhet inom IT och arbetar idag inom Region Stockholm med support för vårdcentraler och kliniker.</p>
+    <p>Idén till verksamheten växte fram ur både praktisk erfarenhet och en personlig bakgrund inom svensk socialpolitik. Tom är barnbarn till Gertrud Sigurdsen (1925–2006), som under sin tid som socialminister och riksdagspolitiker arbetade för att förbättra svensk sjukvård och välfärd. Gertrud stod för trygghet, tillgänglighet och omtanke inom samhällsservicen – värderingar som idag lever vidare i Sigurdsen Automaters arbete.</p>
+    <p>Vi tror att små detaljer gör stor skillnad. En dryck, ett mellanmål eller en nödvändig hygienartikel kan förbättra någons väntetid betydligt. Det är vår uppgift att göra det enkelt.</p>
+  </section>
+
+  <section id="faq">
+    <h2>Vanliga frågor (FAQ)</h2>
+    <div class="faq-item">
+      <h3>Vad kostar det för vårdcentralen?</h3>
+      <p>Ingenting! Vi erbjuder testplacering helt utan kostnad. Ni får dessutom del av eventuell vinst eller tillgång till fria produkter för personal.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Vem fyller på automaterna?</h3>
+      <p>Vi ansvarar för all påfyllning, service och drift. Ni behöver inte göra någonting.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Vad innehåller automaterna?</h3>
+      <p>Vi erbjuder drycker, snacks, fruktbars, hygienartiklar och produkter anpassade för just er miljö och målgrupp.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Hur fungerar betalningen?</h3>
+      <p>Alla automater har kontaktlös betalning via Swish, kort och mobil.</p>
+    </div>
+  </section>
+
+  <section id="kontakt" class="contact">
+    <h2>Kontakta oss</h2>
+    <p>Tom Sigurdsen</p>
+    <p><strong>E-post:</strong> kontakt@sigurdsenautomater.se</p>
+    <p><strong>Telefon:</strong> 070‑123 45 67</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Sigurdsen Automater
+  </footer>
+</body>
+</html>
